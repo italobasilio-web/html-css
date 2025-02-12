@@ -12,4 +12,4 @@
 <a href="https://italobasilio-web.github.io/html-css/desafios/d009/" target="_blank">Desafio 09 curso HTML5 e CSS3</a><br>
 <a href="https://italobasilio-web.github.io/html-css/desafios/d008/" target="_blank">Desafio 08 curso HTML5 e CSS3</a><br>
 <a href="https://italobasilio-web.github.io/html-css/desafios/d009/" target="_blank">Desafio 09 curso HTML5 e CSS3</a><br>
-<a href="https://italobasilio-web.github.io/html-css/desafios/d010/android.html" target="_blank">Desafio 10 curso HTML5 e CSS3 - Projeto Android</a
+<a href="https://italobasilio-web.github.io/html-css/desafios/d010/android.html" target="_blank">Desafio 10 curso HTML5 e CSS3 - Projeto Android</a>
