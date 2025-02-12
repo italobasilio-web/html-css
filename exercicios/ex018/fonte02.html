@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes Externas</title>
+    <style>
+        @font-face {
+            font-family: 'love';
+            src: url('fonts/Valentine Girls.otf') format('opentype');
+            font-weight: normal;
+            font-style: normal;
+            /*
+            tipos de format()
+            - opentype (otf)
+            - truetype (ttf)
+            - embedded-opentype
+            - truetype-aat (Apple Advanced Typography)
+            */
+        }
+        body {
+            font-family:Arial, Helvetica, sans-serif;
+            font-size: 0.8em;
+        }
+        h1 {
+            font-family:'love', serif;
+            font-size: 2em;
+        }
+    </style>
+</head>
+<body>
+    <h1>Título</h1>
+    <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni maxime similique dolores expedita aliquid! Ad ipsam eius eum perferendis consequuntur, delectus placeat ratione tempora ipsum officiis mollitia recusandae doloremque doloribus.
+    </p>
+</body>
+</html>

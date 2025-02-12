@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vídeos com HTML5</title>
+</head>
+<body>
+    <h1>Inserindo vídeos hospedados localmente</h1>
+    <p>Este vídeo está hospedando no meu próprio servidor.</p>
+
+    <!--<video src="midia/videos/meu-video.mp4" width="500" controls></video>-->
+
+    <video width="560" height="315" poster="midia/imagens/limoes-capa.png" controls>
+        <source src="midia/videos/meu-video.mp4" type="video/mp4">
+        <source src="midia/videos/meu-video.m4v" type="video/mp4">
+        <source src="midia/videos/meu-video.webm" type="video/webm">
+        <source src="midia/videos/meu-video.ogv" type="video/ogg">
+        <p>Seu navegador não é compativel com a reprodução de vídeos, <a href="midia/videos/meu-video.mp4" download="meu-video.mp4" type-="video/mp4">clique aqui para fazer o download</a></p>
+    </video>
+
+    <h1>Inserindo vídeos do YouTube</h1>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/4Pr4d7CO-FM?si=S7MytjD1kQi8m7i0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <h1>Inserindo vídeos do Vimeo</h1>
+    <iframe src="https://player.vimeo.com/video/690260560?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" width="560" height="315" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media" title="Return | Superman Blues | Video and Spoken Word"></iframe>
+</body>
+</html>
