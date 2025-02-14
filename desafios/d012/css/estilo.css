@@ -9,17 +9,14 @@ body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 header h1 {
-    font-size: 7vw;
+    font-size: 9vw;
     font-family: "Passion One", serif;
     text-align: center;
-    text-transform: uppercase;
+    font-variant: small-caps;
     color: white;
     margin: 0;
     padding: 60px 0px;
     padding-bottom: 5px;
-}
-header h1 span {
-    font-size: 10vw;
 }
 header p {
     font-size: 1em;
@@ -28,16 +25,16 @@ header p {
     margin: 0;
     padding-bottom: 60px;
 }
-header a {
+header a, footer a {
     color: white;
     font-weight: bold;
     text-decoration: none;
 }
-header a:hover {
+header a:hover, footer a:hover {
     text-decoration: underline;
 }
 article {
-    padding: 50px 30px;
+    padding: 10vh 30px;
     font-family: "Sriracha", serif;
     font-size: 3.5vw;
     line-height: 2em;
@@ -72,12 +69,4 @@ footer p {
     margin: 0;
     padding: 10px;
     font-size: 1em;
-}
-footer a {
-    color: white;
-    text-decoration: none;
-    font-weight: bold;
-}
-footer a:hover {
-    text-decoration: underline;
 }
