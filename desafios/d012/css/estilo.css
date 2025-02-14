@@ -41,7 +41,6 @@ article {
 }
 .art1 {
     background-color: white;
-    box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.336);
     padding-bottom: 80px;
 }
 .fundo {
@@ -49,6 +48,7 @@ article {
     background-attachment: fixed;
     background-size: cover;
     color: white;
+    box-shadow: inset 6px 6px 13px rgba(0, 0, 0, 0.466);
 }
 .fundo p {
     background-color: rgba(0, 0, 0, 0.507);
